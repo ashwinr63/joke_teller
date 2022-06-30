@@ -43,5 +43,6 @@ async function getJoke() {
     }
 }
 
-// Function Call
-getJoke()
+// Adding a event Listener
+
+button.addEventListener('click', getJoke)
